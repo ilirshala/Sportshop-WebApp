@@ -1,0 +1,29 @@
+.row{
+    display: flex !important;
+    align-items: center ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.testimonial{
+    padding-top: 100px;
+}
+.brands{
+    margin: 100px auto;
+}
+.col-5{
+    max-width: 160px;
+}
+.col-5 img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.col-5 img:hover{
+    filter: grayscale(0);
+}

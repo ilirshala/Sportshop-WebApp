@@ -1,0 +1,33 @@
+
+ .peoples .col-3{
+    text-align: center;
+    padding: 40px 20px;
+    flex-basis: 20%;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+    max-width: 300px;
+}
+  .peoples  .col-3 img{
+    width: 60px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+  .peoples  .col-3:hover{
+    transform: translateY(-10px);
+} .peoples   .col-3  p{
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+}
+.peoples .col-3 >p {
+    /* margin: 0 100px; */
+}
+  .peoples  .col-3 h3{
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+}
+  .peoples  .col-3 .rating{
+    justify-content: center;
+}

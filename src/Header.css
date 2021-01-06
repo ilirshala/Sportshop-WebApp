@@ -1,0 +1,140 @@
+
+
+
+p{
+    color: rgb(54, 54, 54);
+}
+.con{
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.header .col-2{
+    flex-basis: 50%;
+    min-width: 400px;
+}
+.header .col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.col-2 p{
+    font-size: 22px;
+}
+.btn{
+    display: inline-block;
+    background-color: #F6521E;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    border: none;
+    outline: #F6521E;
+    transition: background 0.5s ;
+}
+.header{
+    background: radial-gradient(#fff,#21302F);
+    height: 100vh;
+}
+.header .row{
+    margin-top: 50px;
+}
+.logo {
+    width: 120px;
+}
+.btn:hover{
+    background-color: #f8824c;
+}
+.navbar .MuiSvgIcon-root{
+    font-size: 35px;
+}
+.navbar .menu__icon .MuiSvgIcon-root{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+.left{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+ @media (max-width:800px){
+    .row{
+        text-align: center;
+    }
+    .row .col-2 >img {
+        height: 250px;
+    }
+
+    .row .col-2 h1{
+        font-size: 45px;
+    }
+    .col-2, .col-3, .col-4{
+        flex-basis: 100%;
+    }
+    .row .col-2 p{
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+}
+@media (max-width: 600px){
+    .row{
+        text-align: center;
+    }
+    .row .col-2 >img {
+        margin-top: -30px;
+        height: 250px;
+    }
+
+    .row .col-2 h1{
+        line-height: 40px;
+        font-size: 32px;
+        margin-top: -20px;
+    }
+    .col-2, .col-3, .col-4{
+        flex-basis: 100%;
+    }
+    .row .col-2 p{
+        font-size: 15px;
+        text-align: center;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+} 
+@media (min-width:601px) and (max-width:768px){
+    .row{
+        text-align: center;
+    }
+    .row .col-2 >img {
+        margin-top: -20px;
+        height: 250px;
+    }
+    .row .col-2 h1{
+        line-height: 40px;
+        font-size: 32px;
+        margin-top: -20px;
+    }
+    .col-2, .col-3, .col-4{
+        flex-basis: 100%;
+    }
+    .row .col-2 p{
+        font-size: 15px;
+        text-align: center;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+}
